@@ -9,8 +9,9 @@ export default function Collections() {
     {
       title: "Luxury Wear",
       desc: "Elegant silhouettes and fine details for a timeless statement.",
-      img: "https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=800&q=80",
+      img: "https://images.unsplash.com/photo-1746730921484-897eff445c9a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bHV4dXJ5JTIwd2VhYXJ8ZW58MHx8MHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600"
     },
+
     {
       title: "Accessories",
       desc: "Minimal accessories that complete your look with effortless class.",
