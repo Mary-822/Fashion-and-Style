@@ -2,11 +2,12 @@
 
 @theme {
   /* 🎨 Brand Colors */
-  --color-primary: #0f0f0f; /* Deep neutral black */
-  --color-secondary: #c1a57b; /* Elegant gold tone */
-  --color-accent: #e4b363; /* Soft highlight accent */
-  --color-neutralDark: #2b2b2b; /* Rich grey for text */
-  --color-neutralLight: #faf8f6; /* Light background */
+ ---color-primary: #1b1b1b; /* Deep charcoal black */
+--color-secondary: #a5b4fc; /* Soft royal lavender */
+--color-accent: #6366f1; /* Indigo accent */
+--color-neutralDark: #3a3a3a; /* Neutral dark grey */
+--color-neutralLight: #f9fafb; /* Subtle off-white background */
+
 
   /* ✍️ Typography */
   --font-sans: "Poppins", "Inter", sans-serif;

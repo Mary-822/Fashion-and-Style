@@ -1,4 +1,4 @@
- // src/components/sections/Hero.jsx
+// src/components/sections/Hero.jsx
 export default function Hero() {
   return (
     <section className="w-full min-h-screen bg-neutralLight flex items-center">
@@ -21,8 +21,15 @@ export default function Hero() {
         {/* Right Image */}
         <div className="flex-1 lg:flex-[1.2] h-[400px] md:h-[500px] lg:h-[700px]">
           <img
-            src="https://plus.unsplash.com/premium_photo-1675186049563-000f7ac02c44?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjF8fGZhc2hpb258ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600"
-            alt="Luxury fashion wear"
+            src="https://plus.unsplash.com/premium_photo-1692873059132-f0b5dd41cb12?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWZyaWNhJTIwZHJlc3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=1200"
+            srcSet="
+              https://plus.unsplash.com/premium_photo-1692873059132-f0b5dd41cb12?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWZyaWNhJTIwZHJlc3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=400 400w,
+              https://plus.unsplash.com/premium_photo-1692873059132-f0b5dd41cb12?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWZyaWNhJTIwZHJlc3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=800 800w,
+              https://plus.unsplash.com/premium_photo-1692873059132-f0b5dd41cb12?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWZyaWNhJTIwZHJlc3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=1200 1200w
+            "
+            sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 600px"
+            alt="African dress fashion"
+            loading="lazy"
             className="w-full h-full object-cover rounded-2xl shadow-xl"
           />
         </div>
