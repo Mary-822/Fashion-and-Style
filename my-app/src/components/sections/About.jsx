@@ -1,4 +1,4 @@
- // src/components/sections/About.jsx
+// src/components/sections/About.jsx
 export default function About() {
   return (
     <section className="w-full bg-neutralLight py-20 lg:py-28">
@@ -23,12 +23,12 @@ export default function About() {
         {/* Right Image */}
         <div className="flex-1">
           <img
-            src="https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1000&q=80"
+            src="https://images.unsplash.com/photo-1733683321694-458cefa326f7?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=473"
             alt="Velora fashion studio"
             className="w-full h-auto rounded-2xl object-cover shadow-lg"
           />
         </div>
-      </div>
+      </div> {/* ✅ properly closed wrapper div */}
     </section>
   );
 }

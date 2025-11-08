@@ -2,12 +2,11 @@
 
 @theme {
   /* 🎨 Brand Colors */
- ---color-primary: #1b1b1b; /* Deep charcoal black */
---color-secondary: #a5b4fc; /* Soft royal lavender */
---color-accent: #6366f1; /* Indigo accent */
---color-neutralDark: #3a3a3a; /* Neutral dark grey */
---color-neutralLight: #f9fafb; /* Subtle off-white background */
-
+  --color-primary: #1b1b1b; /* Deep charcoal black */
+  --color-secondary: #a5b4fc; /* Soft royal lavender */
+  --color-accent: #6366f1; /* Indigo accent */
+  --color-neutral-dark: #3a3a3a; /* Neutral dark grey */
+  --color-neutral-light: #f9fafb; /* Subtle off-white background */
 
   /* ✍️ Typography */
   --font-sans: "Poppins", "Inter", sans-serif;
@@ -24,10 +23,10 @@
   }
 
   body {
-    @apply bg-neutralLight text-neutralDark font-sans;
+    @apply bg-[var(--color-neutral-light)] text-[var(--color-neutral-dark)] font-sans;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply font-serif text-primary;
+    @apply font-serif text-[var(--color-primary)];
   }
 }
