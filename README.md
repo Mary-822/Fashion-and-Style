@@ -7,8 +7,8 @@
 ---
 ## Live Url
 
-https://improved-guide-jjwpwg6qrgppfwgg-5173.app.github.dev/
-
+[https://improved-guide-jjwpwg6qrgppfwgg-5173.app.github.dev/
+](https://clever-dragon-668bc1.netlify.app/)
 ---
 
 ## 🎨 Brand Identity
