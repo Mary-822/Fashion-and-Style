@@ -5,10 +5,6 @@
 -This project demonstrates a high-end, responsive frontend built with **React** and **Tailwind CSS**, focused on visual storytelling, performance, and accessibility. It serves as both a portfolio project and a brand prototype for digital fashion experiences.
 
 ---
-## Live Url
-
-(https://clever-dragon-668bc1.netlify.app/)
----
 
 ## 🎨 Brand Identity
 
